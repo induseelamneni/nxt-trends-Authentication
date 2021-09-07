@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+.home-bg {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.clothe-img-sm {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+  .clothe-img-sm {
+    display: none;
+    height: 100px;
+    width: 100px;
+  }
+  .home-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+  }
+}
+.clothes-container {
+  width: 700px;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-left: 50px;
+}
+.clothes-container-img {
+  width: 500px;
+  padding-left: 100px;
+  padding-top: 50px;
+  margin-left: 50px;
+}
+.clothes-heading {
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: 700;
+  color: #1e293b;
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 400;
+  color: #64748b;
+}
+.clothe-img-l {
+  height: 400px;
+  width: 400px;
+}
+@media screen and (max-width: 768px) {
+  .clothe-img-l {
+    display: none;
+  }
+  .home-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 15px;
+
+  border-width: 0px;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+}
+.button-container {
+  width: 250px;
+  height: 250px;
+}
